@@ -1,0 +1,16 @@
+{
+  "@microsoft/generator-sharepoint": {
+    "plusBeta": false,
+    "isCreatingSolution": true,
+    "version": "1.14.0",
+    "libraryName": "multi-groups-demo",
+    "libraryId": "56102f1f-8a46-49ca-89b8-255fa1bdf92b",
+    "environment": "spo",
+    "packageManager": "npm",
+    "solutionName": "multi-groups-demo",
+    "solutionShortDescription": "multi-groups-demo description",
+    "skipFeatureDeployment": true,
+    "isDomainIsolated": false,
+    "componentType": "webpart"
+  }
+}

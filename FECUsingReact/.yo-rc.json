@@ -1,0 +1,17 @@
+{
+  "@microsoft/generator-sharepoint": {
+    "plusBeta": false,
+    "isCreatingSolution": true,
+    "version": "1.14.0",
+    "libraryName": "fec-using-react",
+    "libraryId": "a68e01d1-9b75-43bc-a21e-53d7eecdabeb",
+    "environment": "spo",
+    "packageManager": "npm",
+    "solutionName": "fec-using-react",
+    "solutionShortDescription": "fec-using-react description",
+    "skipFeatureDeployment": true,
+    "isDomainIsolated": false,
+    "componentType": "extension",
+    "extensionType": "FieldCustomizer"
+  }
+}

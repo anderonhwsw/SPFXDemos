@@ -1,0 +1,18 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/config.2.0.schema.json",
+  "version": "2.0",
+  "bundles": {
+    "reactlifecyclewp-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/reactlifecyclewp/ReactlifecyclewpWebPart.js",
+          "manifest": "./src/webparts/reactlifecyclewp/ReactlifecyclewpWebPart.manifest.json"
+        }
+      ]
+    }
+  },
+  "externals": {},
+  "localizedResources": {
+    "ReactlifecyclewpWebPartStrings": "lib/webparts/reactlifecyclewp/loc/{locale}.js"
+  }
+}

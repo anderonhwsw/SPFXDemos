@@ -1,0 +1,16 @@
+{
+  "@microsoft/generator-sharepoint": {
+    "plusBeta": false,
+    "isCreatingSolution": true,
+    "version": "1.14.0",
+    "libraryName": "sppnpjscruddemo",
+    "libraryId": "2d600b58-f631-4d09-9c71-d43b0a74f2e5",
+    "environment": "spo",
+    "packageManager": "npm",
+    "solutionName": "sppnpjscruddemo",
+    "solutionShortDescription": "sppnpjscruddemo description",
+    "skipFeatureDeployment": true,
+    "isDomainIsolated": false,
+    "componentType": "webpart"
+  }
+}

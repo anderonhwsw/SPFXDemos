@@ -1,0 +1,48 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/package-solution.schema.json",
+  "solution": {
+    "name": "provisionassetsdemo-client-side-solution",
+    "id": "62640163-63b1-4f30-bcd4-fb9e55914ad8",
+    "version": "1.0.0.0",
+    "includeClientSideAssets": true,
+    "skipFeatureDeployment": true,
+    "isDomainIsolated": false,
+    "developer": {
+      "name": "",
+      "websiteUrl": "",
+      "privacyUrl": "",
+      "termsOfUseUrl": "",
+      "mpnId": "Undefined-1.14.0"
+    },
+    "metadata": {
+      "shortDescription": {
+        "default": "provisionassetsdemo description"
+      },
+      "longDescription": {
+        "default": "provisionassetsdemo description"
+      },
+      "screenshotPaths": [],
+      "videoUrl": "",
+      "categories": []
+    },
+    "features": [
+      {
+        "title": "Provisioning Assets",
+        "description": "The feature that activates elements of the provisionassetsdemo solution.",
+        "id": "b9cbda2d-03c3-4ef6-b031-c0bf97ad1681",
+        "version": "1.0.0.0",
+        "assets": {
+          "elementManifests": [
+            "elements.xml"
+          ],
+          "elementFiles": [
+            "schema.xml"
+          ]
+        }
+      }
+    ]
+  },
+  "paths": {
+    "zippedPackage": "solution/provisionassetsdemo.sppkg"
+  }
+}

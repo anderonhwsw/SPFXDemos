@@ -1,0 +1,16 @@
+{
+  "@microsoft/generator-sharepoint": {
+    "plusBeta": false,
+    "isCreatingSolution": true,
+    "version": "1.14.0",
+    "libraryName": "skip-feature-deployment-demo",
+    "libraryId": "d74f0905-a5e0-46d4-ab0f-52c31eabac0b",
+    "environment": "spo",
+    "packageManager": "npm",
+    "solutionName": "skip-feature-deployment-demo",
+    "solutionShortDescription": "skip-feature-deployment-demo description",
+    "skipFeatureDeployment": true,
+    "isDomainIsolated": false,
+    "componentType": "webpart"
+  }
+}

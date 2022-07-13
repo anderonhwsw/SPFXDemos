@@ -1,0 +1,16 @@
+{
+  "@microsoft/generator-sharepoint": {
+    "plusBeta": false,
+    "isCreatingSolution": true,
+    "version": "1.14.0",
+    "libraryName": "ico-demo",
+    "libraryId": "7bf0f6cb-9ac8-4558-a642-63b00a00972d",
+    "environment": "spo",
+    "packageManager": "npm",
+    "solutionName": "ico-demo",
+    "solutionShortDescription": "ico-demo description",
+    "skipFeatureDeployment": true,
+    "isDomainIsolated": false,
+    "componentType": "webpart"
+  }
+}

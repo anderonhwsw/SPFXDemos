@@ -1,0 +1,18 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/config.2.0.schema.json",
+  "version": "2.0",
+  "bundles": {
+    "provisionassetsexample-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/provisionassetsexample/ProvisionassetsexampleWebPart.js",
+          "manifest": "./src/webparts/provisionassetsexample/ProvisionassetsexampleWebPart.manifest.json"
+        }
+      ]
+    }
+  },
+  "externals": {},
+  "localizedResources": {
+    "ProvisionassetsexampleWebPartStrings": "lib/webparts/provisionassetsexample/loc/{locale}.js"
+  }
+}

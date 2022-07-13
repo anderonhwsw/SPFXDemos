@@ -1,0 +1,37 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx/client-side-web-part-manifest.schema.json",
+  "id": "822b5aa4-75cf-4841-b349-b98fc01d6d99",
+  "alias": "PropertyPaneWpWebPart",
+  "componentType": "WebPart",
+
+  // The "*" signifies that the version should be taken from the package.json
+  "version": "*",
+  "manifestVersion": 2,
+
+  // If true, the component can only be installed on sites where Custom Script is allowed.
+  // Components that allow authors to embed arbitrary script code should set this to true.
+  // https://support.office.com/en-us/article/Turn-scripting-capabilities-on-or-off-1f2c515f-5d7e-448a-9fd7-835da935584f
+  "requiresCustomScript": false,
+  "supportedHosts": ["SharePointWebPart", "TeamsPersonalApp", "TeamsTab", "SharePointFullPage"],
+  "supportsThemeVariants": true,
+
+  "preconfiguredEntries": [{
+    "groupId": "5c03119e-3074-46fd-976b-c60198311f70", // Other
+    "group": { "default": "Other" },
+    "title": { "default": "My new PropertyPaneWP title" },
+    "description": { "default": "PropertyPaneWP description" },
+    "officeFabricIconFontName": "Page",
+    "properties": {
+      "description": "my new PropertyPaneWP Description",
+      "productname": "Keyboard",
+      "productdescription": "Keyboard Description",
+      "productcost": 100,
+      "quantity": 20,
+      "billamount": 0,
+      "discount": 0,
+      "netbillamount": 0,
+      "IsCertified": false,
+      "Rating": 1
+    }
+  }]
+}

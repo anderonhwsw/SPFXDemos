@@ -1,0 +1,40 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/package-solution.schema.json",
+  "solution": {
+    "name": "reactlifecycledemo-client-side-solution",
+    "id": "760a071a-f4de-42b2-aa94-dfeacf799755",
+    "version": "1.0.0.0",
+    "includeClientSideAssets": true,
+    "skipFeatureDeployment": true,
+    "isDomainIsolated": false,
+    "developer": {
+      "name": "",
+      "websiteUrl": "",
+      "privacyUrl": "",
+      "termsOfUseUrl": "",
+      "mpnId": "Undefined-1.14.0"
+    },
+    "metadata": {
+      "shortDescription": {
+        "default": "reactlifecycledemo description"
+      },
+      "longDescription": {
+        "default": "reactlifecycledemo description"
+      },
+      "screenshotPaths": [],
+      "videoUrl": "",
+      "categories": []
+    },
+    "features": [
+      {
+        "title": "reactlifecycledemo Feature",
+        "description": "The feature that activates elements of the reactlifecycledemo solution.",
+        "id": "f02c55de-19af-44e5-a511-0eb9e68ae32e",
+        "version": "1.0.0.0"
+      }
+    ]
+  },
+  "paths": {
+    "zippedPackage": "solution/reactlifecycledemo.sppkg"
+  }
+}

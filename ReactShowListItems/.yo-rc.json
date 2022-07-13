@@ -1,0 +1,16 @@
+{
+  "@microsoft/generator-sharepoint": {
+    "plusBeta": false,
+    "isCreatingSolution": true,
+    "version": "1.14.0",
+    "libraryName": "react-show-list-items",
+    "libraryId": "c569deb3-9aea-4ddf-9ea0-2f6cdedaee5c",
+    "environment": "spo",
+    "packageManager": "npm",
+    "solutionName": "react-show-list-items",
+    "solutionShortDescription": "react-show-list-items description",
+    "skipFeatureDeployment": true,
+    "isDomainIsolated": false,
+    "componentType": "webpart"
+  }
+}

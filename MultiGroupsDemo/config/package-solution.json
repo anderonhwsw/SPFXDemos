@@ -1,0 +1,40 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/package-solution.schema.json",
+  "solution": {
+    "name": "multi-groups-demo-client-side-solution",
+    "id": "56102f1f-8a46-49ca-89b8-255fa1bdf92b",
+    "version": "1.0.0.0",
+    "includeClientSideAssets": true,
+    "skipFeatureDeployment": true,
+    "isDomainIsolated": false,
+    "developer": {
+      "name": "",
+      "websiteUrl": "",
+      "privacyUrl": "",
+      "termsOfUseUrl": "",
+      "mpnId": "Undefined-1.14.0"
+    },
+    "metadata": {
+      "shortDescription": {
+        "default": "multi-groups-demo description"
+      },
+      "longDescription": {
+        "default": "multi-groups-demo description"
+      },
+      "screenshotPaths": [],
+      "videoUrl": "",
+      "categories": []
+    },
+    "features": [
+      {
+        "title": "multi-groups-demo Feature",
+        "description": "The feature that activates elements of the multi-groups-demo solution.",
+        "id": "e42f40b0-c2d5-4b6c-808b-de7c0f5ccf2b",
+        "version": "1.0.0.0"
+      }
+    ]
+  },
+  "paths": {
+    "zippedPackage": "solution/multi-groups-demo.sppkg"
+  }
+}

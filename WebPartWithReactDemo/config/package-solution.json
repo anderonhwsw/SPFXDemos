@@ -1,0 +1,40 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/package-solution.schema.json",
+  "solution": {
+    "name": "web-part-with-react-demo-client-side-solution",
+    "id": "b92ca996-c44c-491b-b887-a5d5a7d4e43b",
+    "version": "1.0.0.0",
+    "includeClientSideAssets": true,
+    "skipFeatureDeployment": true,
+    "isDomainIsolated": false,
+    "developer": {
+      "name": "",
+      "websiteUrl": "",
+      "privacyUrl": "",
+      "termsOfUseUrl": "",
+      "mpnId": "Undefined-1.14.0"
+    },
+    "metadata": {
+      "shortDescription": {
+        "default": "web-part-with-react-demo description"
+      },
+      "longDescription": {
+        "default": "web-part-with-react-demo description"
+      },
+      "screenshotPaths": [],
+      "videoUrl": "",
+      "categories": []
+    },
+    "features": [
+      {
+        "title": "web-part-with-react-demo Feature",
+        "description": "The feature that activates elements of the web-part-with-react-demo solution.",
+        "id": "eca8b4dd-f581-4e52-86c4-d3d5f32a4dfd",
+        "version": "1.0.0.0"
+      }
+    ]
+  },
+  "paths": {
+    "zippedPackage": "solution/web-part-with-react-demo.sppkg"
+  }
+}

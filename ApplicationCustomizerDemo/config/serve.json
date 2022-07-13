@@ -1,0 +1,31 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/core-build/serve.schema.json",
+  "port": 4321,
+  "https": true,
+  "serveConfigurations": {
+    "default": {
+      "pageUrl": "https://pnl4.sharepoint.com/sites/PruebaComunicationsite/SitePages/ACDemo.aspx",
+      "customActions": {
+        "be2b6082-3d28-4749-b66a-5c93d85a4491": {
+          "location": "ClientSideExtension.ApplicationCustomizer",
+          "properties": {
+            "Top": "Header of the page",
+            "Bottom": "Footer of the page"
+          }
+        }
+      }
+    },
+    "acDemo": {
+      "pageUrl": "https://pnl4.sharepoint.com/sites/PruebaComunicationsite/SitePages/ACDemo.aspx",
+      "customActions": {
+        "be2b6082-3d28-4749-b66a-5c93d85a4491": {
+          "location": "ClientSideExtension.ApplicationCustomizer",
+          "properties": {
+            "Top": "Header of the page",
+            "Bottom": "Footer of the page"
+          }
+        }
+      }
+    }
+  }
+}

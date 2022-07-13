@@ -1,0 +1,18 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/config.2.0.schema.json",
+  "version": "2.0",
+  "bundles": {
+    "r-show-list-items-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/rShowListItems/RShowListItemsWebPart.js",
+          "manifest": "./src/webparts/rShowListItems/RShowListItemsWebPart.manifest.json"
+        }
+      ]
+    }
+  },
+  "externals": {},
+  "localizedResources": {
+    "RShowListItemsWebPartStrings": "lib/webparts/rShowListItems/loc/{locale}.js"
+  }
+}

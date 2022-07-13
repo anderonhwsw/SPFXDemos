@@ -1,0 +1,16 @@
+{
+  "@microsoft/generator-sharepoint": {
+    "plusBeta": false,
+    "isCreatingSolution": false,
+    "version": "1.14.0",
+    "libraryName": "multiwebpartsdema",
+    "libraryId": "47dee7ef-131c-440f-8936-d9e6b334a6b3",
+    "environment": "spo",
+    "packageManager": "npm",
+    "solutionName": "multiwebpartsdema",
+    "solutionShortDescription": "multiwebpartsdema description",
+    "skipFeatureDeployment": true,
+    "isDomainIsolated": false,
+    "componentType": "webpart"
+  }
+}

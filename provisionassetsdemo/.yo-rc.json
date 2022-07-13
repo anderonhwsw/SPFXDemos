@@ -1,0 +1,16 @@
+{
+  "@microsoft/generator-sharepoint": {
+    "plusBeta": false,
+    "isCreatingSolution": true,
+    "version": "1.14.0",
+    "libraryName": "provisionassetsdemo",
+    "libraryId": "62640163-63b1-4f30-bcd4-fb9e55914ad8",
+    "environment": "spo",
+    "packageManager": "npm",
+    "solutionName": "provisionassetsdemo",
+    "solutionShortDescription": "provisionassetsdemo description",
+    "skipFeatureDeployment": true,
+    "isDomainIsolated": false,
+    "componentType": "webpart"
+  }
+}

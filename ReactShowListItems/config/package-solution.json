@@ -1,0 +1,40 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/package-solution.schema.json",
+  "solution": {
+    "name": "react-show-list-items-client-side-solution",
+    "id": "c569deb3-9aea-4ddf-9ea0-2f6cdedaee5c",
+    "version": "1.0.0.0",
+    "includeClientSideAssets": true,
+    "skipFeatureDeployment": true,
+    "isDomainIsolated": false,
+    "developer": {
+      "name": "",
+      "websiteUrl": "",
+      "privacyUrl": "",
+      "termsOfUseUrl": "",
+      "mpnId": "Undefined-1.14.0"
+    },
+    "metadata": {
+      "shortDescription": {
+        "default": "react-show-list-items description"
+      },
+      "longDescription": {
+        "default": "react-show-list-items description"
+      },
+      "screenshotPaths": [],
+      "videoUrl": "",
+      "categories": []
+    },
+    "features": [
+      {
+        "title": "react-show-list-items Feature",
+        "description": "The feature that activates elements of the react-show-list-items solution.",
+        "id": "df4ee2a8-c1d4-4aec-8c6c-3f80c1f9db0b",
+        "version": "1.0.0.0"
+      }
+    ]
+  },
+  "paths": {
+    "zippedPackage": "solution/react-show-list-items.sppkg"
+  }
+}

@@ -1,0 +1,40 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/package-solution.schema.json",
+  "solution": {
+    "name": "multiwebpartsdema-client-side-solution",
+    "id": "47dee7ef-131c-440f-8936-d9e6b334a6b3",
+    "version": "1.0.0.0",
+    "includeClientSideAssets": true,
+    "skipFeatureDeployment": true,
+    "isDomainIsolated": false,
+    "developer": {
+      "name": "",
+      "websiteUrl": "",
+      "privacyUrl": "",
+      "termsOfUseUrl": "",
+      "mpnId": "Undefined-1.14.0"
+    },
+    "metadata": {
+      "shortDescription": {
+        "default": "multiwebpartsdema description"
+      },
+      "longDescription": {
+        "default": "multiwebpartsdema description"
+      },
+      "screenshotPaths": [],
+      "videoUrl": "",
+      "categories": []
+    },
+    "features": [
+      {
+        "title": "multiwebpartsdema Feature",
+        "description": "The feature that activates elements of the multiwebpartsdema solution.",
+        "id": "e4afdb99-5c69-43a1-9d3c-bc40f0a501d5",
+        "version": "1.0.0.0"
+      }
+    ]
+  },
+  "paths": {
+    "zippedPackage": "solution/multiwebpartsdema.sppkg"
+  }
+}

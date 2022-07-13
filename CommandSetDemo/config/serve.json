@@ -1,0 +1,31 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/core-build/serve.schema.json",
+  "port": 4321,
+  "https": true,
+  "serveConfigurations": {
+    "default": {
+      "pageUrl": "https://pnl4.sharepoint.com/sites/PruebaComunicationsite/Lists/ProjectsStatus/AllItems.aspx",
+      "customActions": {
+        "57256810-2d13-4b8b-8ea4-8fa9dca5b42c": {
+          "location": "ClientSideExtension.ListViewCommandSet.CommandBar",
+          "properties": {
+            "sampleTextOne": "One item is selected in the list",
+            "sampleTextTwo": "Multiple items are selected....."
+          }
+        }
+      }
+    },
+    "myCommandSetDemo": {
+      "pageUrl": "https://pnl4.sharepoint.com/sites/PruebaComunicationsite/Lists/ProjectsStatus/AllItems.aspx",
+      "customActions": {
+        "57256810-2d13-4b8b-8ea4-8fa9dca5b42c": {
+          "location": "ClientSideExtension.ListViewCommandSet.CommandBar",
+          "properties": {
+            "sampleTextOne": "One item is selected in the list",
+            "sampleTextTwo": "Multiple items are selected....."
+          }
+        }
+      }
+    }
+  }
+}

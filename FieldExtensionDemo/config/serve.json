@@ -1,0 +1,29 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/core-build/serve.schema.json",
+  "port": 4321,
+  "https": true,
+  "serveConfigurations": {
+    "default": {
+      "pageUrl": "https://pnl4.sharepoint.com/sites/PruebaComunicationsite/Lists/ProjectsStatus/AllItems.aspx",
+      "fieldCustomizers": {
+        "Status": {
+          "id": "730847dd-0dfc-41e3-98c1-ed853c0ed0d1",
+          "properties": {
+            "sampleText": "Completed"
+          }
+        }
+      }
+    },
+    "myFieldCustomizerExtension": {
+      "pageUrl": "https://pnl4.sharepoint.com/sites/PruebaComunicationsite/Lists/ProjectsStatus/AllItems.aspx",
+      "fieldCustomizers": {
+        "Status": {
+          "id": "730847dd-0dfc-41e3-98c1-ed853c0ed0d1",
+          "properties": {
+            "sampleText": "Completed"
+          }
+        }
+      }
+    }
+  }
+}

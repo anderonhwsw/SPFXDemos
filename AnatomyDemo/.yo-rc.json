@@ -1,0 +1,16 @@
+{
+  "@microsoft/generator-sharepoint": {
+    "plusBeta": false,
+    "isCreatingSolution": true,
+    "version": "1.14.0",
+    "libraryName": "anatomy-demo",
+    "libraryId": "e9c18e95-7fb4-4fef-8cd2-dbfc9752c3eb",
+    "environment": "spo",
+    "packageManager": "npm",
+    "solutionName": "anatomy-demo",
+    "solutionShortDescription": "anatomy-demo description",
+    "skipFeatureDeployment": true,
+    "isDomainIsolated": false,
+    "componentType": "webpart"
+  }
+}
